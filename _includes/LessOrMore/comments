@@ -2,13 +2,13 @@
 
 {% case site.FB.comments.provider %}
 {% when "disqus" %}
-  {% include LessOrMore/comments-providers/disqus %}
+  {% include dreamer-xs.github.io/comments-providers/disqus %}
 {% when "facebook" %}
-  {% include LessOrMore/comments-providers/facebook %}
+  {% include dreamer-xs.github.io/comments-providers/facebook %}
 {% when "duoshuo" %}
-  {% include LessOrMore/comments-providers/duoshuo %}
+  {% include dreamer-xs.github.io/comments-providers/duoshuo %}
 {% when "yungentie" %}
-  {% include LessOrMore/comments-providers/yungentie %}
+  {% include dreamer-xs.github.io/comments-providers/yungentie %}
 {% when "custom" %}
   {% include custom/comments %}
 {% endcase %}
