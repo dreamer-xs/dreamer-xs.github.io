@@ -1,0 +1,16 @@
+{% if site.FB.comments.provider and page.comments != false %}
+
+{% case site.FB.comments.provider %}
+{% when "disqus" %}
+  {% include dreamer-xs.github.io/comments-providers/disqus %}
+{% when "facebook" %}
+  {% include dreamer-xs.github.io/comments-providers/facebook %}
+{% when "duoshuo" %}
+  {% include dreamer-xs.github.io/comments-providers/duoshuo %}
+{% when "yungentie" %}
+  {% include dreamer-xs.github.io/comments-providers/yungentie %}
+{% when "custom" %}
+  {% include custom/comments %}
+{% endcase %}
+
+{% endif %}
