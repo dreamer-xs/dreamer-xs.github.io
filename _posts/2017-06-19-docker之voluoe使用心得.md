@@ -23,7 +23,7 @@ tag: docker
 
 **注意**:***`显式指定volume时，需要在容器启动后才能将数据落盘，启动之前容器的挂载目录会被主机所覆盖掉。`***
 
-# 容器数据持久化方案：
+# 容器数据持久化方案
 1.启动数据容器， 指定主机路径/tmp目录来代替data容器下的/tmp目录。
 ```
      docker run -v /tmp:/tmp  --name data busybox:latest
