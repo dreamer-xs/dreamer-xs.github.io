@@ -1,13 +1,13 @@
 # Site settings
 name: dreamer
-email: dreamer@126.com
+email: dreamer.xs@qq.com
 author: dreamer
 #url: http://www.hifreud.com
 #resume_site: http://www.hifreud.com/Resume.io/
 github: https://github.com/dreamer-xs/
 baseurl: ""
-description: Actually, less is more!
-meta_description: dreamer;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+description: I Am What I Am ...
+meta_description: dreamer;学而不思则罔;思而不学则殆;路漫漫其修远兮;吾将上下而求索
 motto: It's our wits that make us men.
 banner: 学而不思则罔，思而不学则殆。
 
