@@ -12,13 +12,12 @@ tag: 视频,直播
 
 ******
 
-
 # 视频直播技术流程简介
 
 随着互联网用户消费内容和交互方式的升级，支撑这些内容和交互方式的基础设施也正在悄悄发生变革。手机设备拍摄视频能力和网络的升级催生了大家对视频直播领域的关注，吸引了很多互联网创业者或者成熟企业进入该领域。
 本文章将系统化地介绍当下大热的视频直播各环节的关键技术
 
-!播放器原理({{ '/styles/images/media_player_theory.jpg' | prepend: site.baseurl  }})
+![播放器原理]({{ '/styles/images/media_player_theory.jpg' | prepend: site.baseurl  }})
 
 
 # 采集
