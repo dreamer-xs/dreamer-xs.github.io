@@ -7,6 +7,9 @@ permalink: /reference/
 * content
 {:toc}
 
+未来世界的幸存者
+=====================
+[未来世界的幸存者](https://ruanyf.github.io/survivor/index.html)
 
 走向架构师之路
 =====================
