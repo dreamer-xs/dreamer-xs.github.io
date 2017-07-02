@@ -7,6 +7,9 @@ permalink: /reference/
 * content
 {:toc}
 
+[Go语言学习](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
+=====================
+
 未来世界的幸存者
 =====================
 [未来世界的幸存者](https://ruanyf.github.io/survivor/index.html)
@@ -15,20 +18,20 @@ permalink: /reference/
 =====================
 [走向架构师之路](http://blog.csdn.net/cutesource/article/details/4901506)
 
-HTTP协议详解
+Go语言学习
 =====================
-[HTTP协议详解](http://www.jmarshall.com/easy/http/)
+[Go语言学习](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
 
 Axis 2.0的入门
 =====================
-[曹胜欢][http://blog.csdn.net/csh624366188/article/details/8362696](http://blog.csdn.net/csh624366188/article/details/8362696)
+[曹胜欢](http://blog.csdn.net/csh624366188/article/details/8362696)
 
 高爽|Coder 
 =====================
 这个人的博客对java底层的东西研究比较深入。
 [http://blog.csdn.net/ghsau/article/details/20395681](http://blog.csdn.net/ghsau/article/details/20395681)
 
-[一线码农]
+一线码农
 =====================
 算法入门和分布式缓存入门
 [http://www.cnblogs.com/huangxincheng/archive/2011/11/14/2249046.html](http://www.cnblogs.com/huangxincheng/archive/2011/11/14/2249046.html)
