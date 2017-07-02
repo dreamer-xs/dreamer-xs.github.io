@@ -7,14 +7,17 @@ permalink: /reference/
 * content
 {:toc}
 
-[Go语言学习](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
+Go语言学习
 =====================
+[Go语言入门](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
 
+Makrdown语法
+=====================
 [Makrdown语法手册](http://blog.csdn.net/witnessai1/article/details/52551362)
-=====================
 
-[未来世界的幸存者](https://ruanyf.github.io/survivor/index.html)
+未来世界的幸存者
 =====================
+[未来世界的幸存者](https://ruanyf.github.io/survivor/index.html)
 
 走向架构师之路
 =====================
