@@ -7,20 +7,15 @@ permalink: /reference/
 * content
 {:toc}
 
-[Go语言学习](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
+[Go语言学习](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md"入门学习推荐")
 =====================
 
-未来世界的幸存者
-=====================
 [未来世界的幸存者](https://ruanyf.github.io/survivor/index.html)
+=====================
 
 走向架构师之路
 =====================
 [走向架构师之路](http://blog.csdn.net/cutesource/article/details/4901506)
-
-Go语言学习
-=====================
-[Go语言学习](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
 
 Axis 2.0的入门
 =====================
