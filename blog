@@ -1,0 +1,83 @@
+#!/bin/bash
+
+##########################################################
+#         This scripts is help to managerment blog   
+#           usage:
+#               $1:action
+#               $2:command
+#           example:
+#               bash blog write how-to-use-git-bash
+#
+###########################################################
+
+function fn_blog_title_create()
+{
+    local title=$1
+    if [ -z "${title}" ]
+    then
+        echo "The title is null!"
+        return 1
+    fi
+    export BLOG_NAME=`date +%Y-%m-%d-"$title".md`
+}
+
+
+function fn_blog_write()
+{
+    blog_path=`find . -type d -name "_posts"`
+    if [ -z "${blog_path}" ]
+    then
+        echo "Can't find the blog path, pls make sure in the right the position!"
+        return 1
+    fi
+
+    cd ${blog_path}
+
+    fn_blog_title_create "${content}"
+
+    vim ${BLOG_NAME}
+    
+    echo "Succuss to save the blog: ${BLOG_NAME}"
+    return 0
+}
+
+function fn_usage()
+{
+
+    return 0
+}
+
+function fn_main()
+{
+    local action=$1
+    local content=$2
+
+    if [ -z "${action}" -o -z "${content}" ]
+    then
+        echo "The parameter is null!"
+        return 1
+    fi
+
+    export action="${action}"
+    export content="${content}"
+
+    case "${action}" in
+        write)
+            fn_blog_write || return $?
+            ;;
+        read)
+            true
+            ;;
+        *)
+            fn_usage
+            ;;
+    esac
+
+    return 0
+}
+
+
+fn_main $@
+
+exit $?
+
