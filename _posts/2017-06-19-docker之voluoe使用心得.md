@@ -2,7 +2,7 @@
 layout: post
 title:  "docker之voluoe使用心得"
 date:   2017-06-19 16:02:01 +0800
-categories: docker
+categories: software
 tag: docker
 ---
 

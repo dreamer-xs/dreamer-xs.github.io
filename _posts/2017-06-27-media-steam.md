@@ -2,7 +2,7 @@
 layout: post
 title:  "视频直播技术简介"
 date:   2017-06-27 21:36:01 +0800
-categories: 视频直播
+categories: media
 tag: 视频,直播
 ---
 

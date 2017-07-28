@@ -2,8 +2,8 @@
 layout: post
 title:  "Windows 平台下 Go 语言的安装和环境变量设置"
 date:   2017-07-03 15:31:01 +0800
-categories: go
-tag: go部署
+categories: software
+tag: go
 ---
 
 * content
